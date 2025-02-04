@@ -4,7 +4,7 @@ async function generatePoem(event) {
 
   const instructionsInput = document.querySelector(".instructions");
   const prompt = instructionsInput.value;
-  const context = "You are a nice Alien in love with a citizent of Planet Earth. Write a short love letter to your fellow favorite human ";
+  const context = "You are a nice Alien in love with a citizent of Planet Earth. Write a short love letter to your fellow favorite human, in French ";
   const apiKey = "oafbe8035b88726c0e80be71t4409330";
   const poemDiv = document.querySelector(".poem");
 
